@@ -1,5 +1,5 @@
-server 'sdn-sb-dev-01.oit.duke.edu', :app, :web, :db, :primary => true
-set :vhost, 'switchboard-dev.oit.duke.edu'
+server 'switchboard.netlab.uky.edu', :app, :web, :db, :primary => true
+set :vhost, 'switchboard.netlab.uky.edu'
 
 set :rails_env, 'development'
 

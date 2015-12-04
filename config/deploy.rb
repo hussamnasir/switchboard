@@ -14,16 +14,16 @@ require 'bundler/capistrano'
 
 
 # App specific configs
-set :rubyver, '1.9.3'
+set :rubyver, '2.1.2'
 set :application, "switchboard"
 set :keep_releases, 5
-set :repository,  "git@gitorious.oit.duke.edu:switchboard/switchboard.git"
+set :repository,  "git@github.com:mccahill/switchboard.git"
 set :scm, :git
 
 # General configs - these are mostly the same across projects
 load 'deploy/assets'
 set :branch, 'master'
-set :user, 'capdeploy'
+set :user, 'root'
 set :runtime_group, 'apache'
 set :scm_verbose, true
 set :deploy_via, :remote_cache
