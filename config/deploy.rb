@@ -17,7 +17,7 @@ require 'bundler/capistrano'
 set :rubyver, '2.1.2'
 set :application, "switchboard"
 set :keep_releases, 5
-set :repository,  "git@github.com:mccahill/switchboard.git"
+set :repository,  "git@github.com:hussamnasir/switchboard.git"
 set :scm, :git
 
 # General configs - these are mostly the same across projects
